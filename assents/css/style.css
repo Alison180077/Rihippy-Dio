@@ -1,0 +1,37 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.exemplo{
+    background: black;
+    width: 200px;
+    height: 200px;
+    border: 50px solid;
+    margin: 50px auto;
+}
+
+#exemplo-1{
+    border-image-source: url(../img/download.png);
+    border-image-repeat: repeat;
+    border-image-slice: 169;
+   
+}
+#exemplo-2{ 
+    border-image-source: linear-gradient(rgb(100, 185, 235), rgb(0, 255, 255),  rgb(87, 42, 1) );
+    /*border-image-slice: 10;*/
+    border-image-outset: 5px;
+}
+   
+
+#exemplo-3{
+    border-image-source: url(../img/download.png);
+    border-image-width: auto /*10px 25px 55px 95px*/;
+}
+#exemplo-4{
+    border-image-source: url(../img/download.png);
+    border-image-repeat:  space/*stretch repeat space round*/;
+    border-image-slice: 10;
+}
+#exemplo-5{
+    border-image: linear-gradient(rgb(100, 185, 235), rgb(0, 255, 255),  rgb(87, 42, 1) 169 / 10px / 1 round );
+}
